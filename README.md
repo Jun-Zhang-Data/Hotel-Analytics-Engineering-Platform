@@ -1,5 +1,10 @@
 # Hotel Analytics Engineering Platform
 
+## Architecture
+
+![Hotel Analytics Engineering Platform architecture](docs/images/architecture.svg)
+
+
 A production-style local analytics engineering project for hotel booking data, built with PostgreSQL, dbt, Apache Airflow, Docker, Python, FastAPI, and GitHub Actions.
 
 The project demonstrates how operational booking and payment data can be ingested and standardized, enriched with governed master/reference data, validated through explicit data-quality rules, routed into structured exception outputs, transformed into trusted analytical models, and exposed through reporting-ready marts. The production-grade upgrade extends that baseline with explicit recovery, source contracts, operational health checks, controlled backfills, CI failure simulations, run metadata, and operational documentation.
